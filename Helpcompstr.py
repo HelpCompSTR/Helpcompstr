@@ -1,4 +1,5 @@
 
+import requests
 import threading
 import time
 import requests, random, datetime, sys, time, argparse, os
@@ -12,8 +13,8 @@ print("""
 ─────────║║───────────║║
 ─────────╚╝───────────╚╝
 """)
-phone = input("\033[32m Введите номер +")
- def qw(_phone):
+phone = input("Введите номер +")
+ def (_phone):
     if _phone[0] == '+':
         _phone = _phone[1:]
     if _phone[0] == '8':
